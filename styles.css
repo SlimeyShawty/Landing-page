@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT'
   }
 
 .header-container {
@@ -60,7 +61,8 @@
 .first-sign-up{
     width: 75px;
     margin-top: 20px;
-    background-color: lightskyblue;
+    background-color: #3882f6;
+    color: #1f2937;
 }
 
 .hero-image {
@@ -75,4 +77,109 @@
     font-size: 18px;
     color: #f9faf8;
 
+}
+
+.information-container{
+    background-color: white;
+
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 85px;
+}
+
+.information-MT{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 85px;
+    margin-bottom: 30px;
+    display: flex;
+    align-self: center;
+}
+
+.INFO-BLOCKS {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.infoblock {
+    border: 2px solid lightblue;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+.BLOCK {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+
+.quote-container {
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote {
+    font-size: 36px;
+    width: 600px;
+    min-height: 300px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 25px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cta-text-box {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+
+.cta-button {
+    background-color: pink;
+}
+
+.cta-button {
+    margin-left: 100px;
+}
+
+.cta-main-text {
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    background-color: black;
+    font: 800;
+    padding: 15px;
 }
